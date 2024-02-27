@@ -2,21 +2,17 @@ module.exports = {
 	apps: [
 		{
 			name: 'tileserver',
-			script: 'bunx tileserver-gl-light -c ./config.json',
-			watch: 'styles',
+			script: 'bun run start',
 		},
 	],
-
 	deploy: {
 		production: {
-			user: 'SSH_USERNAME',
-			host: 'SSH_HOSTMACHINE',
+			user: 'root',
+			host: ['192.168.0.13', '192.168.0.14', '192.168.0.15'],
 			ref: 'origin/master',
-			repo: 'GIT_REPOSITORY',
-			path: 'DESTINATION_PATH',
-			'pre-deploy-local': '',
-			'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
-			'pre-setup': '',
+			repo: 'git@github.com:SeeUrCargo/tileserver.git',
+			path: '/var/www/tileserver',
+			'post-deploy': 'npm run prepare',
 		},
 	},
 }
