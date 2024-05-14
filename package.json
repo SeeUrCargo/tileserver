@@ -2,7 +2,7 @@
 	"name": "@seeurcargo/tiles",
 	"version": "0.1.0",
 	"license": "MIT",
-	"type": "commonjs",
+	"type": "module",
 	"private": true,
 	"scripts": {
 		"prepare": "npm install pm2 -g && npm install bun -g && npm install tileserver-gl-light -g",
@@ -18,5 +18,5 @@
 		"bun": ">=1",
 		"node": ">=20"
 	},
-	"packageManager": "bun@1.0.29"
+	"packageManager": "bun@1.1.7"
 }
