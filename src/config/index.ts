@@ -15,6 +15,7 @@ const config: TileServerGlConfig = {
 	},
 	headers: {
 		...defaultConfig.headers,
+		'Access-Control-Allow-Origin': '*',
 	},
 	data: {
 		[MBTILES_FILENAME]: {
