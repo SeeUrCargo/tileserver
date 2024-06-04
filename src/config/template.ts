@@ -3,22 +3,22 @@ import type { TileServerGlConfig } from './types'
 const config: TileServerGlConfig = {
 	options: {
 		paths: {
-			root: 'assets',
+			root: './assets',
 			fonts: 'fonts',
 			styles: 'styles',
 			sprites: 'sprites',
 
 			mbtiles: 'data',
 		},
-		domains: ['127.0.0.1:8080'],
+		domains: ['localhost:8080'],
 		formatQuality: {
 			webp: 90,
 		},
 		maxScaleFactor: 3,
 		maxSize: 2048,
 		pbfAlias: 'pbf',
-		serveAllFonts: false,
-		serveAllStyles: false,
+		serveAllFonts: true,
+		serveAllStyles: true,
 		serveStaticMaps: true,
 		tileMargin: 0,
 	},
