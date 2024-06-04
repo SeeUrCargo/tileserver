@@ -7,7 +7,6 @@
 		"openmaptiles:version": "3.x"
 	},
 
-	"sprite": "sprites",
 	"glyphs": "{fontstack}/{range}.pbf",
 	"sources": {
 		"openmaptiles": {
@@ -215,7 +214,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-max-angle": 30,
 				"text-pitch-alignment": "viewport",
 				"text-rotation-alignment": "map",
@@ -252,7 +251,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Italic"],
+				"text-font": ["Roboto-Italic"],
 				"text-letter-spacing": 0.25,
 				"text-line-height": 1.55,
 				"text-pitch-alignment": "viewport",
@@ -286,7 +285,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Italic"],
+				"text-font": ["Roboto-Italic"],
 				"text-letter-spacing": 0.1,
 				"text-line-height": 1.55,
 				"text-size": {
@@ -323,7 +322,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Italic"],
+				"text-font": ["Roboto-Italic"],
 				"text-letter-spacing": 0.2,
 				"text-line-height": 1.55,
 				"text-size": 18
@@ -355,7 +354,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "center",
 				"text-line-height": 1.55,
 				"text-size": 14,
@@ -394,7 +393,7 @@
 						""
 					]
 				],
-				"text-font": ["NotoSans Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "center",
 				"text-line-height": 1.55,
 				"text-size": 14,
@@ -432,7 +431,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "center",
 				"text-line-height": 1.55,
 				"text-size": 14,
@@ -469,7 +468,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "center",
 				"text-letter-spacing": 0.1,
 				"text-line-height": 1.55,
@@ -524,7 +523,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Italic"],
+				"text-font": ["Roboto-Italic"],
 				"text-line-height": 1.55,
 				"text-max-angle": 30,
 				"text-pitch-alignment": "viewport",
@@ -561,7 +560,7 @@
 					]
 				},
 				"text-field": "{ref}",
-				"text-font": ["Roboto Italic"],
+				"text-font": ["Roboto-Italic"],
 				"text-rotation-alignment": "viewport",
 				"text-size": 10
 			},
@@ -591,7 +590,7 @@
 					]
 				},
 				"text-field": "{ref}",
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-rotation-alignment": "viewport",
 				"text-size": 10
 			},
@@ -615,7 +614,7 @@
 				"symbol-avoid-edges": true,
 				"symbol-placement": "line",
 				"text-field": "{ref}",
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-rotation-alignment": "viewport",
 				"text-size": 10
 			},
@@ -644,7 +643,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "center",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0],
@@ -686,7 +685,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -742,7 +741,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -801,7 +800,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -860,7 +859,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -921,7 +920,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -981,7 +980,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-justify": "left",
 				"text-line-height": 1.55,
 				"text-offset": [0.5, 0.2],
@@ -1022,7 +1021,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Regular"],
+				"text-font": ["Roboto-Regular"],
 				"text-line-height": 1.55,
 				"text-size": 10,
 				"text-transform": "uppercase",
@@ -1059,7 +1058,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Semibold"],
+				"text-font": ["Roboto-Bold"],
 				"text-letter-spacing": 0.05,
 				"text-line-height": 1.55,
 				"text-padding": 10,
@@ -1107,7 +1106,7 @@
 						""
 					]
 				],
-				"text-font": ["Roboto Semibold"],
+				"text-font": ["Roboto-Bold"],
 				"text-letter-spacing": 0.05,
 				"text-line-height": 1.55,
 				"text-size": {
@@ -1135,7 +1134,7 @@
 			"id": "place-continent",
 			"layout": {
 				"text-field": "{name:latin}",
-				"text-font": ["Roboto Bold"],
+				"text-font": ["Roboto-Bold"],
 				"text-letter-spacing": 0.1,
 				"text-max-width": 6.25,
 				"text-size": 16,
