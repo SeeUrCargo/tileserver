@@ -9,12 +9,12 @@
 		"start": "bun run ./scripts/start.ts"
 	},
 	"devDependencies": {
-		"bun-types": "^1.0.29",
+		"bun-types": "1.1.12",
 		"tileserver-gl-light": "4.10.3"
 	},
 	"engines": {
 		"bun": ">=1",
 		"node": ">=20"
 	},
-	"packageManager": "bun@1.1.7"
+	"packageManager": "bun@1.1.12"
 }
