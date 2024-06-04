@@ -2,11 +2,12 @@ import { env } from 'bun'
 
 declare module 'bun' {
 	interface Env {
-		CORS: string
+		PORT: number
+
 		DOMAIN: string
 		MBTILES_PATH: string
 		MBTILES_FILENAME: string
 	}
 }
 
-export const { CORS, DOMAIN, MBTILES_PATH, MBTILES_FILENAME } = env
+export const { DOMAIN, MBTILES_PATH, MBTILES_FILENAME, PORT = 3001 } = env

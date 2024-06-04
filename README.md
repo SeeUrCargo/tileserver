@@ -13,7 +13,7 @@ Configure `.env`
 ```shell
 NODE_ENV=
 
-CORS="CORS_HEADER_VALUE"
+PORT=3000
 DOMAIN=
 
 MBTILES_PATH=
