@@ -1,1 +1,32 @@
-{"options":{"paths":{"root":"./assets","fonts":"fonts","styles":"styles","sprites":"sprites","mbtiles":"/Users/zkharovz/Documents/tileserver/assets/data"},"domains":["localhost:8080"],"formatQuality":{"webp":90},"maxScaleFactor":3,"maxSize":2048,"pbfAlias":"pbf","serveAllFonts":true,"serveAllStyles":true,"serveStaticMaps":true,"tileMargin":0},"styles":{"basic":{"style":"basic.json","tilejson":{"type":"overlay","bounds":[-6.3,41.27688,9.8,51.32937]}},"brand":{"style":"brand.json","tilejson":{"type":"overlay","bounds":[-6.3,41.27688,9.8,51.32937]}}},"data":{"planet":{"mbtiles":"planet.mbtiles"}},"headers":{}}
+{
+	"options": {
+		"paths": {
+			"root": "./assets",
+			"fonts": "fonts",
+			"styles": "styles",
+			"sprites": "sprites",
+			"mbtiles": "/Users/zkharovz/Documents/tileserver/assets/data"
+		},
+		"domains": ["localhost:8080"],
+		"formatQuality": { "webp": 90 },
+		"maxScaleFactor": 3,
+		"maxSize": 2048,
+		"pbfAlias": "pbf",
+		"serveAllFonts": true,
+		"serveAllStyles": true,
+		"serveStaticMaps": true,
+		"tileMargin": 0
+	},
+	"styles": {
+		"basic": {
+			"style": "basic.json",
+			"tilejson": { "type": "overlay", "bounds": [-6.3, 41.27688, 9.8, 51.32937] }
+		},
+		"brand": {
+			"style": "brand.json",
+			"tilejson": { "type": "overlay", "bounds": [-6.3, 41.27688, 9.8, 51.32937] }
+		}
+	},
+	"data": { "planet": { "mbtiles": "planet.mbtiles" } },
+	"headers": {}
+}
