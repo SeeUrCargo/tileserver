@@ -1,4 +1,4 @@
-import { CORS, DOMAIN, MBTILES_PATH, MBTILES_FILENAME } from '~/env'
+import { DOMAIN, MBTILES_PATH, MBTILES_FILENAME } from '~/env'
 
 import defaultConfig from './template'
 import type { TileServerGlConfig } from './types'
@@ -15,7 +15,6 @@ const config: TileServerGlConfig = {
 	},
 	headers: {
 		...defaultConfig.headers,
-		'Access-Control-Allow-Origin': CORS,
 	},
 	data: {
 		[MBTILES_FILENAME]: {
