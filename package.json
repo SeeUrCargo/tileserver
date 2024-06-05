@@ -5,7 +5,6 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"prepare": "npm install pm2 -g && npm install bun -g && npm install tileserver-gl-light -g",
 		"start": "bun run ./scripts/start.ts"
 	},
 	"devDependencies": {
