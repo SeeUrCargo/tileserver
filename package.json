@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"bun-types": "1.1.12",
-		"tileserver-gl-light": "4.4.0"
+		"tileserver-gl-light": "4.11.1"
 	},
 	"engines": {
 		"bun": ">=1",
