@@ -5,9 +5,10 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"start": "bun run ./scripts/start.ts"
+		"start": "pm2 start \"bun --env-file=.env run ./scripts/start.ts\" --name tiles -i --max -- start"
 	},
 	"devDependencies": {
+		"pm2": "^5.4.0",
 		"bun-types": "1.1.12",
 		"tileserver-gl-light": "4.11.1"
 	},
